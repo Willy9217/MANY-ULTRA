@@ -40,7 +40,6 @@ authlib
 PyJWT
 
 # --- Email / Mensajería ---
-smtplib
 twilio
 python-telegram-bot
 
