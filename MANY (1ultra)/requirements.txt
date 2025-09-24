@@ -1,9 +1,10 @@
 # --- Core Web Server ---
+fastapi==0.117.1
+uvicorn==0.37.0
 Flask==3.1.2
 Flask-SQLAlchemy==3.0.5
 gunicorn==23.0.0
-fastapi
-uvicorn
+
 
 # --- Utilidades generales ---
 requests
