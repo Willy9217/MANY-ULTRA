@@ -14,3 +14,7 @@ services:
         sync: false  # puedes asignar tu base de datos aquí más adelante
       - key: SECRET_KEY
         generateValue: true  # Render generará una automáticamente
+        git add render.yaml main.py
+        git commit -m "Config full deploy for Flask/FastAPI"
+        git push origin main
+
