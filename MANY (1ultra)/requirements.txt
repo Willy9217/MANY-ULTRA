@@ -1,6 +1,4 @@
 # --- Core Web Server ---
-flask
-gunicorn
 fastapi
 uvicorn
 
