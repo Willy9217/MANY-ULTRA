@@ -3,6 +3,10 @@ flask
 gunicorn
 fastapi
 uvicorn
+Flask==3.1.2
+Flask-SQLAlchemy==3.0.5
+gunicorn==22.1.0
+
 
 # --- Utilidades generales ---
 requests
