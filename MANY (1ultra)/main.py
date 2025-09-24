@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "🚀 MANY-ULTRA está vivo y listo para monetizar en modo Ultra!"
+      return {"status": "🚀 MANY-ULTRA activo y listo para monetizar!"}
 
 if __name__ == "__main__":
     import os
