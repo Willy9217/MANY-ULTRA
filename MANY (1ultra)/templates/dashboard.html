@@ -1,1 +1,30 @@
 <h1>Panel de MANY Bot</h1><p>Aquí verás tus estadísticas 💰</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MANY-ULTRA Dashboard</title>
+</head>
+<body>
+    <h1>Empresas para Monetizar</h1>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Monetizando</th>
+            <th>Acción</th>
+        </tr>
+        {% for empresa in empresas %}
+        <tr>
+            <td>{{ empresa.id }}</td>
+            <td>{{ empresa.nombre }}</td>
+            <td>{{ empresa.email }}</td>
+            <td>{{ empresa.monetizando }}</td>
+            <td>
+                <a href="/monetizar/{{ empresa.id }}" target="_blank">Generar Link Pago</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
